@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'neza.wsgi.application'
 DATABASES = {
     'default': {
         # 'ENGINE': 'django.db.backends.mysql',
-        # 'NAME': 'ehingadb',
+        # 'NAME': '',
         # 'HOST': 'localhost',
-        # 'USERNAME': 'mysql',
-        # 'PASSWORD': 'papanama',
-        # 'PORT': '3306',
+        # 'USERNAME': '',
+        # 'PASSWORD': '',
+        # 'PORT': '',
       
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
